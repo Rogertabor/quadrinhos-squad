@@ -1,0 +1,32 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/* icones é estilizado como text */
+.div-icon i {
+    color: yellow;
+    font-size: 40px;
+}
+
+.div-title h1 {
+    font-size: 25px;
+    text-transform: uppercase; /* deixa o texto em caixa alta */
+    color: yellow;
+}
+
+.div-list ul{
+    display: flex;
+    gap: 15px;   
+}
+
+.div-list ul li {
+    list-style: none; /* remove as bolinhas da ul e li */
+}
+
+.div-list ul li a {
+    text-decoration: none; /* remove o sublinhado */
+    color: yellow; /* cor da letra */
+}
