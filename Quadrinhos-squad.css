@@ -3,30 +3,216 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
 }
-/* icones é estilizado como text */
+
 .div-icon i {
+    /*ícones é estilizado como text*/
     color: yellow;
     font-size: 40px;
 }
 
 .div-title h1 {
     font-size: 25px;
-    text-transform: uppercase; /* deixa o texto em caixa alta */
+    text-transform: uppercase;
+    /*DEIXA O TEXTO EM CAIXA ALTA*/
     color: yellow;
 }
 
-.div-list ul{
+.div-list ul {
     display: flex;
-    gap: 15px;   
+    gap: 15px;
 }
 
 .div-list ul li {
-    list-style: none; /* remove as bolinhas da ul e li */
+    list-style: none;
+    /*remove "bolinhas" da lista*/
 }
 
 .div-list ul li a {
-    text-decoration: none; /* remove o sublinhado */
-    color: yellow; /* cor da letra */
+    text-decoration: none;
+    /*remove o sublinhado*/
+    color: yellow;
+    /*cor da letra*/
+}
+
+.section-01 {
+    background-color: black;
+    /*cor de fundo*/
+    display: flex;
+    /*tornando o item flex/lado a lado*/
+    justify-content: space-evenly;
+    /*alinhamento horizontal*/
+    align-items: center;
+    /*alinhamento vertical*/
+    gap: 15px;
+    /*espaço entre as div*/
+    padding: 100px;
+    /*Preenchimento interno*/
+}
+
+.img-section-01 {
+    width: 300px;
+    /*Largura da img*/
+    height: 350px;
+    /*altura da img*/
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.363);
+    /*sombra da caixa*/
+    border-radius: 40px;
+    /*arredondamento da img*/
+}
+
+.section-01 p {
+    color: white;
+    /*cor da letra*/
+    font-size: 30px;
+    /*tamanho da letra*/
+    font-family: 'arial';
+    /*Família de font*/
+    margin-left: 30px;
+    /*espaçamento lateral esquerda*/
+    font-weight: 700;
+    /*peso da fonte*/
+    text-align: center;
+    /*Alinhamento do texto*/
+}
+
+span {
+    font-size: 40px;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+.section-02 {
+    background-color: black;
+    /*cor de fundo*/
+    padding: 100px;
+    /*Espaçamento interno*/
+
+    display: flex;
+    /*os itens ficaram lado lado*/
+    flex-direction: column;
+    /*modificando a direção das caixas*/
+    align-items: center;
+    /*alinhamento vertical*/
+    justify-content: center;
+    /*alinhamento horizontal*/
+
+}
+
+.div-icons i {
+    color: yellow;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+.div-paragrafo p {
+    color: white;
+    font-size: 30px;
+}
+
+
+.section-03 {
+    padding: 150px;
+    /*preenchimento interno*/
+    background-image: url(imagens/architecture-3128917_1280.jpg);
+    /*imagem de fundo*/
+    background-attachment: fixed;
+    /*posicionamento fixo*/
+    background-position: center top;
+    /*posicionamento da img*/
+    /*alinhamento do botão*/
+    display: flex;
+    /*tornando a section flex, sendo possível fazer o alinhamento*/
+    justify-content: center;
+    /*alinhamento horizontal*/
+    align-items: center;
+    /*alinhamento vertical*/
+}
+
+.section-03 button {
+    background-color: yellow;
+    /*cor de fundo do botão*/
+    color: black;
+    /*cor da letra*/
+    width: 180px;
+    /*largura do botão*/
+    padding: 10px;
+    /*espaçamento interno*/
+    border: none;
+    /*removendo borda*/
+    box-shadow: 5px 5px 10px white;
+    /*sombra do botão*/
+}
+
+.section-03 button:hover {
+    background-color: rgba(255, 255, 0, 0.447);
+    /*alternância da cor ao passar o mouse*/
+    transition: 0.8s;
+    /*transição da ação do hover*/
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.386);
+    /*alternância da cor da sombra ao passar o mouse*/
+}
+
+.section-04 {
+    background-color: grey;
+    /*cor de fundo da section*/
+    padding: 100px;
+    /*preenchimento interno da section*/
+    display: flex;
+    /*tornando a section flex lado a lado*/
+    gap: 10px;
+    /*espaçamento entre as caixas*/
+    justify-content: center;
+    /*alinhamento horizontal*/
+    align-items: center;
+    /*alinhamento vertical*/
+}
+
+/* aqui estamos utilizando as 3 caixas div */
+.div-section-04 {
+    width: 350px;
+    /*alinhamento horizontal*/
+    height: 350px;
+    background-color: blue;
+}
+
+.div-dog {
+    background-image: url(Imagens/dog.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.div-start {
+    background-color: aqua;
+}
+
+.div-start h3 {
+    color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div-start p {
+
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.div-start i {
+    font-size: 20px;
+    color: brown;
+
+}
+
+.div-user {
+    background-color: chocolate;
+
+}
+
+.div-user i{
+    font-size: 100px;
+    color: black;
+    text-align: center;
 }
