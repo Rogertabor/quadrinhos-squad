@@ -12,9 +12,9 @@ header {
 }
 
 .div-title h1 {
+    /*DEIXA O TEXTO EM CAIXA ALTA*/
     font-size: 25px;
     text-transform: uppercase;
-    /*DEIXA O TEXTO EM CAIXA ALTA*/
     color: yellow;
 }
 
@@ -24,56 +24,56 @@ header {
 }
 
 .div-list ul li {
-    list-style: none;
     /*remove "bolinhas" da lista*/
+    list-style: none;
 }
 
 .div-list ul li a {
-    text-decoration: none;
     /*remove o sublinhado*/
-    color: yellow;
+    text-decoration: none;
     /*cor da letra*/
+    color: yellow;
 }
 
 .section-01 {
-    background-color: black;
     /*cor de fundo*/
-    display: flex;
+    background-color: black;
     /*tornando o item flex/lado a lado*/
-    justify-content: space-evenly;
+    display: flex;
     /*alinhamento horizontal*/
-    align-items: center;
+    justify-content: space-evenly;
     /*alinhamento vertical*/
-    gap: 15px;
+    align-items: center;
     /*espaço entre as div*/
-    padding: 100px;
+    gap: 15px;
     /*Preenchimento interno*/
+    padding: 100px;
 }
 
 .img-section-01 {
-    width: 300px;
     /*Largura da img*/
-    height: 350px;
+    width: 300px;
     /*altura da img*/
-    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.363);
+    height: 350px;
     /*sombra da caixa*/
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.363);
+    /*arredondamento das bordas*/
     border-radius: 40px;
-    /*arredondamento da img*/
 }
 
 .section-01 p {
-    color: white;
     /*cor da letra*/
-    font-size: 30px;
+    color: white;
     /*tamanho da letra*/
-    font-family: 'arial';
+    font-size: 30px;
     /*Família de font*/
-    margin-left: 30px;
+    font-family: 'arial';
     /*espaçamento lateral esquerda*/
-    font-weight: 700;
+    margin-left: 30px;
     /*peso da fonte*/
-    text-align: center;
+    font-weight: 700;
     /*Alinhamento do texto*/
+    text-align: center;
 }
 
 span {
@@ -83,19 +83,19 @@ span {
 }
 
 .section-02 {
-    background-color: black;
     /*cor de fundo*/
-    padding: 100px;
+    background-color: black;
     /*Espaçamento interno*/
+    padding: 100px;
 
-    display: flex;
     /*os itens ficaram lado lado*/
-    flex-direction: column;
+    display: flex;
     /*modificando a direção das caixas*/
-    align-items: center;
+    flex-direction: column;
     /*alinhamento vertical*/
-    justify-content: center;
+    align-items: center;
     /*alinhamento horizontal*/
+    justify-content: center;
 
 }
 
@@ -112,68 +112,46 @@ span {
 
 
 .section-03 {
-    padding: 150px;
-    /*preenchimento interno*/
-    background-image: url(imagens/architecture-3128917_1280.jpg);
-    /*imagem de fundo*/
-    background-attachment: fixed;
-    /*posicionamento fixo*/
-    background-position: center top;
-    /*posicionamento da img*/
-    /*alinhamento do botão*/
-    display: flex;
-    /*tornando a section flex, sendo possível fazer o alinhamento*/
-    justify-content: center;
-    /*alinhamento horizontal*/
-    align-items: center;
-    /*alinhamento vertical*/
+    padding: 150px; /*preenchimento interno*/
+    background-image: url(imagens/architecture-3128917_1280.jpg); /*imagem de fundo*/ 
+    background-attachment: fixed; /*posicionamento fixo*/
+    background-position: center top; /*posicionamento da img*/
+    display: flex; /*tornando a section flex, sendo possível fazer o alinhamento*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
 }
 
 .section-03 button {
-    background-color: yellow;
-    /*cor de fundo do botão*/
-    color: black;
-    /*cor da letra*/
-    width: 180px;
-    /*largura do botão*/
-    padding: 10px;
-    /*espaçamento interno*/
-    border: none;
-    /*removendo borda*/
-    box-shadow: 5px 5px 10px white;
-    /*sombra do botão*/
+    background-color: yellow; /*cor de fundo do botão*/
+    color: black; /*cor da letra*/
+    width: 180px; /*largura do botão*/
+    padding: 10px; /*espaçamento interno*/
+    border: none; /*removendo borda*/
+    box-shadow: 5px 5px 10px white; /*sombra do botão*/
 }
 
 .section-03 button:hover {
-    background-color: rgba(255, 255, 0, 0.447);
-    /*alternância da cor ao passar o mouse*/
-    transition: 0.8s;
-    /*transição da ação do hover*/
-    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.386);
-    /*alternância da cor da sombra ao passar o mouse*/
+    background-color: rgba(255, 255, 0, 0.447); /*alternância da cor ao passar o mouse*/
+    transition: 0.8s; /*transição da ação do hover*/
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.386); /*alternância da cor da sombra ao passar o mouse*/
 }
 
 .section-04 {
-    background-color: grey;
-    /*cor de fundo da section*/
-    padding: 100px;
-    /*preenchimento interno da section*/
-    display: flex;
-    /*tornando a section flex lado a lado*/
-    gap: 10px;
-    /*espaçamento entre as caixas*/
-    justify-content: center;
-    /*alinhamento horizontal*/
-    align-items: center;
-    /*alinhamento vertical*/
+    background-color: grey; /*cor de fundo da section*/
+    padding: 100px;  /*preenchimento interno da section*/
+    display: flex; /*tornando a section flex lado a lado*/
+    gap: 10px; /*espaçamento entre as caixas*/
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhamento vertical*/
 }
 
 /* aqui estamos utilizando as 3 caixas div */
 .div-section-04 {
     width: 350px;
-    /*alinhamento horizontal*/
     height: 350px;
     background-color: blue;
+    text-align: center;
+    padding: 15px;
 }
 
 .div-dog {
@@ -184,13 +162,14 @@ span {
 }
 
 .div-start {
-    background-color: aqua;
+    background-color: rgb(87, 129, 129);
 }
 
 .div-start h3 {
     color: black;
     font-size: 30px;
-    text-align: center;
+    text-transform: uppercase;
+
 }
 
 .div-start p {
@@ -202,17 +181,36 @@ span {
 
 .div-start i {
     font-size: 20px;
-    color: brown;
+    color: rgb(122, 43, 109);
 
 }
 
 .div-user {
-    background-color: chocolate;
+    background-color: rgba(29, 71, 33, 0.219);
 
 }
 
-.div-user i{
-    font-size: 100px;
-    color: black;
-    text-align: center;
+.div-user img{
+    width: 150px;
+    height: 150px;
 }
+.div-user p {
+    font-size: 20px;
+}
+footer {
+    background-color: black;  /*cor de fundo*/
+    padding: 50px; /*preenchimento interno*/
+    color: yellow; /*cor das letras*/
+    display: flex; /*utilizando para fa\er alinhamento */
+    align-items: center; /*alinhamento vertical*/
+    justify-content: center; /*alinhamento horizontal*/
+    text-align: center; /*alinhamento dos textos*/
+    font-size: 25px; /*aumentando o tamanho dos textos*/
+}
+
+footer i{
+    font-size: 25px;
+    color: floralwhite;
+}
+
+
