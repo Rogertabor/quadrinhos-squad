@@ -137,7 +137,7 @@ span {
 }
 
 .section-04 {
-    background-color: grey; /*cor de fundo da section*/
+    background-color: rgb(67, 76, 78); /*cor de fundo da section*/
     padding: 100px;  /*preenchimento interno da section*/
     display: flex; /*tornando a section flex lado a lado*/
     gap: 10px; /*espaçamento entre as caixas*/
@@ -149,7 +149,7 @@ span {
 .div-section-04 {
     width: 350px;
     height: 350px;
-    background-color: blue;
+    background-color: rgb(105, 218, 13);
     text-align: center;
     padding: 15px;
 }
@@ -162,7 +162,7 @@ span {
 }
 
 .div-start {
-    background-color: rgb(87, 129, 129);
+    background-color: rgb(62, 89, 197);
 }
 
 .div-start h3 {
@@ -181,7 +181,7 @@ span {
 
 .div-start i {
     font-size: 20px;
-    color: rgb(122, 43, 109);
+    color: rgb(230, 8, 8);
 
 }
 
